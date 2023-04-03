@@ -1,0 +1,5 @@
+attach(data)
+mehsul_sayi1=data.frame(table(satish_kodu,bonus_kart))
+mehsul_sayi1=subset(mehsul_sayi1,mehsul_sayi1$Freq>=3)
+mehsul_sayi2=subset(mehsul_sayi1,mehsul_sayi1$bonus_kart=="TRUE")
+nrow(mehsul_sayi2)/nrow(mehsul_sayi1)
