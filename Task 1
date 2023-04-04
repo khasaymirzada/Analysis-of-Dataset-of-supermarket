@@ -1,3 +1,4 @@
+library(lubridate)
 attach(data)
 mehsul_sayi1=data.frame(table(satish_kodu,bonus_kart))
 mehsul_sayi1=subset(mehsul_sayi1,mehsul_sayi1$Freq>=3)
